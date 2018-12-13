@@ -93,7 +93,7 @@ def main(args=None):
 				print(label_name)
 
 			
-			cv2.imshow('img', img)
+# 			cv2.imshow('img', img)
 			cv2.imwrite(str(idx) +'.png',img)
 			break
 # 			cv2.waitKey(0)
