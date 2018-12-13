@@ -82,10 +82,7 @@ def main(args=None):
 				y1 = int(bbox[1])
 				x2 = int(bbox[2])
 				y2 = int(bbox[3])
-				print(x1)
-				print(y1)
-				print(x2)
-				print(y2)
+	
 				label_name = dataset_val.labels[int(classification[idxs[0][j]])]
 				draw_caption(img, (x1, y1, x2, y2), label_name)
 
