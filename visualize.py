@@ -94,8 +94,8 @@ def main(args=None):
 
 			
 # 			cv2.imshow('img', img)
-			cv2.imwrite(str(idx) +'.png',img)
-			break
+			cv2.imwrite('validation_results/'str(idx) +'.png',img)
+
 # 			cv2.waitKey(0)
 
 
